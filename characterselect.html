@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Snakes and Ladders</h1>
+    <ul>
+      <h3>Choose two players to start the game.</h3>
+      <h3>
+        Once you have selected the players hit start at the bottom of the page
+        to start the game.
+      </h3>
+      <h3>
+        Each Player gets a chance to roll the dice and if the player has roled
+        six, he will get one more chance to roll.
+      </h3>
+      <h3>
+        The green line is considered as ladder and the red line is considered as
+        snake.
+      </h3>
+      <h3>The player who reaches 50 first is considered as winner.</h3>
+    </ul>
+    <div id="cardWrapper"></div>
+    <script src="characterSelect.js"></script>
+    <button onclick="startGame()" type="button" class="btn btn-primary">
+      Start Game
+    </button>
+  </body>
+</html>

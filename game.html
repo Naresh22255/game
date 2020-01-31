@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="gameWrapper">
+        <canvas id="boardCanvas" height="635px" width="1020px"></canvas>
+        <div id="gameInfoWrapper">
+          <div id="diceWrapper" onclick="rollDice()">
+            <b>Click dice to roll</b>
+            <img id="diceImg" src="img/dice.png" alt="image of dice" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="player.js" defer></script>
+  </body>
+</html>
