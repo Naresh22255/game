@@ -92,6 +92,6 @@ function startGame() {
     localStorage.setItem("players", JSON.stringify(players));
     window.location = "game.html";
   } else {
-    window.alert("Please select one more player to start the game");
+    window.alert("Please select two players to start the game");
   }
 }
